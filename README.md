@@ -10,9 +10,8 @@ The dataset used is [FER2013](https://www.kaggle.com/datasets/msambare/fer2013),
 The data from  [FER2013](https://www.kaggle.com/datasets/msambare/fer2013) has been transformed [here](3DTransformation) to apply the 3D models. If you want to apply it, you need to apply [LandmarkExtraction](3DTransformation/LandmarkExtraction.ipynb) first and then [LandmarkVoxelization](3DTransformation/LandmarkVoxelization.ipynb).
 
 ## 💡 Models
-The created models have been divided into [2D](models/2DModels) and [3D](models/3DModels), and for each model, the data has been loaded from Google Drive. If necessary, you can modify the code snippet and insert the appropriate path. MLflow was used to track the data obtained from the models. If you don't want to use it, you should not execute the MLflow installation code snippets and comment out the start_run parts in the model training cells.
+The created models have been divided into [2D](models/2DModels) and [3D](models/3DModels), and for each model, the data has been loaded from Google Drive. If necessary, you can modify the code snippet and insert the appropriate path. MLflow was used to track the data obtained from the models. If you don't want to use it, don't execute the MLflow installation code snippets and comment out the relevant parts in the model training cells.
+For the implementation of [VGG](models/2DModels/VGGTransferLearning.ipynb), the steps were downloaded from  [here](https://www.robots.ox.ac.uk/~albanie/pytorch-models.html).
 
 ## 🚧 To-Do
 - [ ] Mesh CNN
-
-Feel free to contribute to this project! We welcome any contributions, suggestions, or improvements. Open a pull request or submit an issue.
