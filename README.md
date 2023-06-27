@@ -1,7 +1,7 @@
 ## 3DFER_SE4AI
 The 3DFER project uses Facial Emotional Recognition through artificial intelligence algorithms to detect and interpret human emotions.
 
-## 👱🏼 Description
+## Description
 3DFER uses machine learning algorithms to train a deep neural network model capable of recognizing emotions in facial images. 2D models were created as a reference for the 3D models (whose dataset is created through reconstruction) in order to highlight the performance differences between them.
 
 ## 🗃 Dataset
