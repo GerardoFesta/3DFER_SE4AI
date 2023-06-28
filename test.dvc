@@ -1,0 +1,5 @@
+outs:
+- md5: 75809b672b10f68a6450816ccbdb7670.dir
+  size: 11324320
+  nfiles: 7178
+  path: datasets/fer2013/test

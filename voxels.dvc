@@ -1,0 +1,5 @@
+outs:
+- md5: 2d8ae13f3e81c2181815b7800247f624.dir
+  size: 3692160920
+  nfiles: 2
+  path: datasets/3ddatasets/voxels

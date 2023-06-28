@@ -1,0 +1,5 @@
+outs:
+- md5: b4e7cd6b765d6adbf086b0d04e0e42bc.dir
+  size: 1023494183
+  nfiles: 2
+  path: datasets/3ddatasets/landmarks
